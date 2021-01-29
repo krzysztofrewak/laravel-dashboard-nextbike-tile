@@ -1,17 +1,25 @@
 {
-    "name": "spatie/laravel-dashboard-velo-tile",
-    "description": "A velo tile for Laravel Dashboard",
+    "name": "krzysztofrewak/laravel-dashboard-nextbike-tile",
+    "description": "A Nextbike tile for Laravel Dashboard",
     "keywords": [
         "spatie",
-        "laravel-dashboard-velo-tile"
+        "laravel-dashboard-velo-tile",
+        "laravel-dashboard-nextbike-tile",
+        "nextbike"
     ],
-    "homepage": "https://github.com/spatie/laravel-dashboard-velo-tile",
+    "homepage": "https://github.com/krzysztofrewak/laravel-dashboard-nextbike-tile",
     "license": "MIT",
     "authors": [
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
+            "role": "Author"
+        },
+        {
+            "name": "Krzysztof Rewak",
+            "email": "krzysztof.rewak@rewak.pl",
+            "homepage": "https://rewak.pl/",
             "role": "Developer"
         }
     ],
@@ -24,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\VeloTile\\": "src"
+            "KrzysztofRewak\\NextbikeTile\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\VeloTile\\Tests\\": "tests"
+            "KrzysztofRewak\\NextbikeTile\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,7 +51,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\VeloTile\\VeloTileServiceProvider"
+                "KrzysztofRewak\\NextbikeTile\\NextbikeTileServiceProvider"
             ]
         }
     },

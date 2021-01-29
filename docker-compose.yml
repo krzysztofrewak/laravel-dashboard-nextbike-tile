@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  nextbike:
+    container_name: nextbike-tile
+    working_dir: /application
+    image: composer:2.0.8
+    volumes:
+      - .:/application
